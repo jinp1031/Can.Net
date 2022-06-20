@@ -70,5 +70,21 @@
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
+
+.followBtn{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+

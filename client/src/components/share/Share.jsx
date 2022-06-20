@@ -1,6 +1,7 @@
 import "./share.css";
 import { MdPermMedia,MdLocationPin } from "react-icons/md";
 import { BsEmojiExpressionlessFill } from "react-icons/bs";
+import { ImCancelCircle } from "react-icons/im";
 import { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import axios from "axios";
@@ -50,6 +51,15 @@ export default function Share() {
           />
         </div>
         <hr className="shareHr" />
+        {file && (
+          <div className="sharePhotoContainer">
+            <img className="shareImg"
+            src={URL.createObjectURL(file)}
+            alt="" />
+            <ImCancelCircle className="shareCancel" onClick={()=> setFile(null)}/>
+          </div>
+
+        )}
         <form className="shareBottom" onSubmit={submitHandler}>
           <div className="shareOptions">
             <label htmlFor="file" className="shareOption" >
