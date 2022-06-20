@@ -1,0 +1,31 @@
+.rightF{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rightProfileImgContainer{
+  margin-right: 10px;
+  position: relative;
+}
+
+.rightProfileImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.rightOnline{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.rightUsername{
+  font-weight: 500;
+}

@@ -1,0 +1,74 @@
+.rightbar{
+  flex:3;
+}
+.rightWrapper{
+  padding: 20px 20px 0 0;
+}
+
+.birthdayContainer{
+  display: flex;
+  align-items: center;
+}
+
+.birIcon{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.birText{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightAd{
+  width: 100%;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.rightTitle{
+  margin-bottom: 20px;
+}
+.rightFL{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rbTitle{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.rbInfos{
+  margin-bottom: 30px;
+}
+.rbInfo{
+  margin-bottom: 10px;
+}
+.rbInfoKey{
+  font-weight: 500;
+  margin-right: 15px;
+  color: rgba(36, 0, 0, 0.765);
+}
+.rbInfoValue{
+  font-weight: 200;
+}
+.rbFollowings{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rbFollowing{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.rbFollowImg{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
