@@ -1,0 +1,30 @@
+.onlinechatFri{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.imgContainer{
+  position: relative;
+  margin-right: 10px;
+}
+
+.ocImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.ocBadge{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(89, 146, 4);
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
