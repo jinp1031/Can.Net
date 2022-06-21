@@ -26,7 +26,9 @@ export default function NavBar() {
       </div>
       <div className="navbarRight">
         <div className="navbarLinks">
+        <Link to="/" className="homepageLink" style={{textDecoration:"none"}}>
           <span className="navbarLink">Homepage</span>
+        </Link>
           <span className="navbarLink">Feeds</span>
         </div>
         <div className="navbarIcons">
