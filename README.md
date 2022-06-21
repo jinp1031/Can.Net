@@ -6,7 +6,7 @@ A social Media app with live chat, feeds etc..
 
 ## Getting Start
 1. Fork and Clone:</br>
-```git clone https://github.com/SDC-Ewok/SDC-Q-A```
+```git clone https://github.com/jinp1031/Can.Net```
 2. Install dependencies:</br>
 ```npm install```
 3. Configure your database settings in .env
