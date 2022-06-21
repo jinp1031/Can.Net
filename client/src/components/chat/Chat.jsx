@@ -6,8 +6,7 @@ export default function Chat({chat,cUser}){
   const [user, setUser] = useState(null);
 
   useEffect(()=>{
-    const friendId = chat.members.find(m => m !== cUser);
-
+    const friendId = chat.members.find(m => m !== cUser._id);
     const getUser = async () => {
       try{
         const res = await axios.get(`/users/?userId=${friendId}`)
